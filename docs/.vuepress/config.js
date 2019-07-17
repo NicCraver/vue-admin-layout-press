@@ -38,7 +38,7 @@ module.exports = {
             '',
             'admin-layout',
             'Vue-Markdown',
-            
+            'netlify'
           ]
         }
       ],
