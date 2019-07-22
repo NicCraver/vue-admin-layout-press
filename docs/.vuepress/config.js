@@ -1,7 +1,5 @@
-const { description } = require('../../package')
-
 module.exports = {
-  title: '武汉好卓大前端组',//左上角标题，浏览器头部title，首页图片下面的加粗文字
+  title: '武汉好卓前端组',//左上角标题，浏览器头部title，首页图片下面的加粗文字
   description: "武汉好卓前端开发文档",//描述信息
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -35,10 +33,17 @@ module.exports = {
           title: '前端开发文档',
           collapsable: false,
           children: [//对应文件夹中的.md文件名
-            '',
-            'admin-layout',
             'Vue-Markdown',
             'netlify'
+          ]
+        },
+        {
+          title: 'vue-admin-layout',
+          collapsable: false,
+          children: [//对应文件夹中的.md文件名
+            '',
+            'admin-layout',
+            'admin-cli3'
           ]
         }
       ],
