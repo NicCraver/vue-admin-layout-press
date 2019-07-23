@@ -1,19 +1,24 @@
 
 # vue-admin-layout-template使用方法 
+[vuecli3-admin-layout](https://vuecli3-admin.netlify.com)
 
 [vue-admin-layout-template示例](https://vue-admin-layout.netlify.com)
 ## 下载
 ``` sh
 //使用Git Bash
+//vuecli3
+git clone https://github.com/NicCraver/vuecli3-admin.git
+//vue-admin-layout-template
 git clone https://github.com/NicCraver/vue-admin-layout-template.git
 ```
 或直接去GitHub里下载
+
+[vuecli3-admin-layout](https://github.com/NicCraver/vuecli3-admin)
+
 [vue-admin-layout-template](https://github.com/NicCraver/vue-admin-layout-template)
 ## 安装
 ``` sh
 yarn
-//or
-npm i
 
 //运行
 yarn dev
