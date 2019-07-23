@@ -33,6 +33,7 @@ module.exports = {
           title: '前端开发文档',
           collapsable: false,
           children: [//对应文件夹中的.md文件名
+            '',
             'Vue-Markdown',
             'netlify'
           ]
@@ -41,9 +42,8 @@ module.exports = {
           title: 'vue-admin-layout',
           collapsable: false,
           children: [//对应文件夹中的.md文件名
-            '',
-            'admin-layout',
-            'admin-cli3'
+            'admin-cli3',
+            'admin-layout'
           ]
         }
       ],
